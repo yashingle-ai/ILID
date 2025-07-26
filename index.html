@@ -1,322 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ILID: Investigating Language Identity Detection in Multilingual Contexts</title>
-    <meta name="description" content="Academic paper on language identity detection in multilingual contexts presented at RANLP 2025">
-    <meta name="keywords" content="language identity detection, multilingual, NLP, computational linguistics, RANLP">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      ILID: Investigating Language Identity Detection in Multilingual Contexts
+    </title>
+    <meta
+      name="description"
+      content="Academic paper on language identity detection in multilingual contexts presented at RANLP 2025"
+    />
+    <meta
+      name="keywords"
+      content="language identity detection, multilingual, NLP, computational linguistics, RANLP"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <span class="brand-text">ILID Paper</span>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#abstract" class="nav-link">Abstract</a>
-                <a href="#resources" class="nav-link">Resources</a>
-                <a href="#authors" class="nav-link">Authors</a>
-                <a href="#paper" class="nav-link">Paper</a>
-                <a href="#citation" class="nav-link">Citation</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="nav-container">
+        <div class="nav-brand">
+          <span class="brand-text">ILID Paper</span>
         </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#abstract" class="nav-link">Abstract</a>
+          <a href="#resources" class="nav-link">Resources</a>
+          <a href="#authors" class="nav-link">Authors</a>
+          <a href="#paper" class="nav-link">Paper</a>
+          <a href="#citation" class="nav-link">Citation</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </nav>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="conference-badge">
-                        <span class="badge">RANLP 2025</span>
-                    </div>
-                    <h1 class="hero-title">
-                        ILID: Investigating Language Identity Detection in Multilingual Contexts
-                    </h1>
-                    <p class="hero-subtitle">
-                        A comprehensive study on automatic language identification techniques for multilingual text processing and cross-lingual understanding.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="ILID_Paper_RANLP_2025 (3).pdf" class="btn btn-primary" target="_blank">
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                <polyline points="14,2 14,8 20,8"/>
-                                <line x1="16" y1="13" x2="8" y2="13"/>
-                                <line x1="16" y1="17" x2="8" y2="17"/>
-                                <polyline points="10,9 9,9 8,9"/>
-                            </svg>
-                            Read Paper
-                        </a>
-                        <a href="ILID_Paper_RANLP_2025 (3).pdf" class="btn btn-secondary" download>
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7,10 12,15 17,10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                            Download PDF
-                        </a>
-                    </div>
-                </div>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="conference-badge">
+              <span class="badge">RANLP 2025</span>
             </div>
-        </section>
-
-        <!-- Authors Section -->
-        <section id="authors" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Authors</h2>
-                </div>
-                <div class="authors-grid">
-                    <div class="author-card">
-                        <div class="author-info">
-                            <h3 class="author-name">Yash Ingle</h3>
-                            <p class="author-affiliation">SVNIT</p>
-                            <p class="author-email">u23ai062@coed.svnit.ac.in</p>
-                        </div>
-                    </div>
-                    <div class="author-card">
-                        <div class="author-info">
-                            <h3 class="author-name">Dr. Pruthwik Mishra</h3>
-                            <p class="author-affiliation">SVNIT</p>
-                            <p class="author-email">pruthwik.mishra@aid.svnit.ac.in</p>
-                        </div>
-                    </div>
-                    <!-- Add more author cards as needed -->
-                </div>
+            <h1 class="hero-title">
+              ILID: Investigating Language Identity Detection in Multilingual
+              Contexts
+            </h1>
+            <p class="hero-subtitle">
+              A comprehensive study on automatic language identification
+              techniques for multilingual text processing and cross-lingual
+              understanding.
+            </p>
+            <div class="hero-actions">
+              <a
+                href="ILID_Paper_RANLP_2025 (3).pdf"
+                class="btn btn-primary"
+                target="_blank"
+              >
+                <svg
+                  class="btn-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  />
+                  <polyline points="14,2 14,8 20,8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10,9 9,9 8,9" />
+                </svg>
+                Read Paper
+              </a>
+              <a
+                href="ILID_Paper_RANLP_2025 (3).pdf"
+                class="btn btn-secondary"
+                download
+              >
+                <svg
+                  class="btn-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7,10 12,15 17,10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download PDF
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Project Links Section -->
-<section id="resources" class="section">
-    <div class="container">
-        <div class="section-header">
+      <!-- Authors Section -->
+      <section id="authors" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Authors</h2>
+          </div>
+          <div class="authors-grid">
+            <div class="author-card">
+              <div class="author-info">
+                <h3 class="author-name">Yash Ingle</h3>
+                <p class="author-affiliation">SVNIT</p>
+                <p class="author-email">u23ai062@coed.svnit.ac.in</p>
+              </div>
+            </div>
+            <div class="author-card">
+              <div class="author-info">
+                <h3 class="author-name">Dr. Pruthwik Mishra</h3>
+                <p class="author-affiliation">SVNIT</p>
+                <p class="author-email">pruthwik.mishra@aid.svnit.ac.in</p>
+              </div>
+            </div>
+            <!-- Add more author cards as needed -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Links Section -->
+      <section id="resources" class="section">
+        <div class="container">
+          <div class="section-header">
             <h2 class="section-title">Project Resources</h2>
+          </div>
+          <div class="resources-grid">
+            <div class="resource-card">
+              <h3 class="resource-title">Main Repository</h3>
+              <a
+                href="https://github.com/yashingle-ai/"
+                target="_blank"
+                class="resource-link"
+                >GitHub: yashingle-ai</a
+              >
+            </div>
+            <div class="resource-card">
+              <h3 class="resource-title">Preprint</h3>
+              <a
+                href="https://www.arxiv.org/abs/2507.11832"
+                target="_blank"
+                class="resource-link"
+                >arXiv: 2507.11832</a
+              >
+            </div>
+            <div class="resource-card">
+              <h3 class="resource-title">Python Package</h3>
+              <a
+                href="https://pypi.org/project/langid-indian/0.1.2/"
+                target="_blank"
+                class="resource-link"
+                >PyPI: langid-indian 0.1.2</a
+              >
+            </div>
+            <div class="resource-card">
+              <h3 class="resource-title">Hugging Face Dataset</h3>
+              <a
+                href="https://huggingface.co/datasets/yash-ingle/idld23-language-id-dataset"
+                target="_blank"
+                class="resource-link"
+                >HF: idld23-language-id-dataset</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="resources-grid">
-            <div class="resource-card">
-                <h3 class="resource-title">Main Repository</h3>
-                <a href="https://github.com/yashingle-ai/" target="_blank" class="resource-link">GitHub: yashingle-ai</a>
+      </section>
+
+      <!-- Abstract Section -->
+      <section id="abstract" class="section section-gray">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Abstract</h2>
+          </div>
+          <div class="abstract-content">
+            <div class="abstract-text">
+              <p>
+                This paper presents ILID (Investigating Language Identity
+                Detection), a comprehensive framework for automatic language
+                identification in multilingual contexts. With the increasing
+                prevalence of multilingual content in digital communications,
+                accurate language detection has become crucial for natural
+                language processing applications.
+              </p>
+              <p>
+                Our approach combines traditional statistical methods with
+                modern deep learning techniques to achieve state-of-the-art
+                performance on language identification tasks. We evaluate our
+                methodology on diverse datasets spanning multiple language
+                families and demonstrate significant improvements over existing
+                baselines.
+              </p>
+              <p>
+                The contributions of this work include: (1) a novel architecture
+                for language identification that handles code-switching
+                scenarios, (2) comprehensive evaluation on multilingual
+                datasets, and (3) analysis of cross-lingual transfer
+                capabilities in language detection tasks.
+              </p>
             </div>
-            <div class="resource-card">
-                <h3 class="resource-title">Preprint</h3>
-                <a href="https://www.arxiv.org/abs/2507.11832" target="_blank" class="resource-link">arXiv: 2507.11832</a>
-            </div>
-            <div class="resource-card">
-                <h3 class="resource-title">Python Package</h3>
-                <a href="https://pypi.org/project/langid-indian/0.1.2/" target="_blank" class="resource-link">PyPI: langid-indian 0.1.2</a>
-            </div>
-            <div class="resource-card">
-                <h3 class="resource-title">Hugging Face Dataset</h3>
-                <a href="https://huggingface.co/datasets/yash-ingle/idld23-language-id-dataset" target="_blank" class="resource-link">HF: idld23-language-id-dataset</a>
-            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
 
-
-        <!-- Abstract Section -->
-        <section id="abstract" class="section section-gray">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Abstract</h2>
-                </div>
-                <div class="abstract-content">
-                    <div class="abstract-text">
-                        <p>
-                            This paper presents ILID (Investigating Language Identity Detection), a comprehensive framework for automatic language identification in multilingual contexts. With the increasing prevalence of multilingual content in digital communications, accurate language detection has become crucial for natural language processing applications.
-                        </p>
-                        <p>
-                            Our approach combines traditional statistical methods with modern deep learning techniques to achieve state-of-the-art performance on language identification tasks. We evaluate our methodology on diverse datasets spanning multiple language families and demonstrate significant improvements over existing baselines.
-                        </p>
-                        <p>
-                            The contributions of this work include: (1) a novel architecture for language identification that handles code-switching scenarios, (2) comprehensive evaluation on multilingual datasets, and (3) analysis of cross-lingual transfer capabilities in language detection tasks.
-                        </p>
-                    </div>
-                </div>
+      <!-- Paper Viewer Section -->
+      <section id="paper" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Paper Viewer</h2>
+            <p class="section-description">
+              Read the full paper directly in your browser or download the PDF
+              for offline reading.
+            </p>
+          </div>
+          <div class="paper-viewer">
+            <div class="pdf-container">
+              <iframe
+                src="ILID_Paper_RANLP_2025 (3).pdf"
+                class="pdf-viewer"
+                title="ILID Paper PDF Viewer"
+              >
+              </iframe>
             </div>
-        </section>
-
-        <!-- Paper Viewer Section -->
-        <section id="paper" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Paper Viewer</h2>
-                    <p class="section-description">
-                        Read the full paper directly in your browser or download the PDF for offline reading.
-                    </p>
-                </div>
-                <div class="paper-viewer">
-                    <div class="pdf-container">
-                        <iframe 
-                            src="ILID_Paper_RANLP_2025 (3).pdf" 
-                            class="pdf-viewer"
-                            title="ILID Paper PDF Viewer">
-                        </iframe>
-                    </div>
-                    <div class="paper-actions">
-                        <a href="ILID_Paper_RANLP_2025 (3).pdf" class="btn btn-outline" target="_blank">
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                <polyline points="15,3 21,3 21,9"/>
-                                <line x1="10" y1="14" x2="21" y2="3"/>
-                            </svg>
-                            Open in New Tab
-                        </a>
-                        <a href="ILID_Paper_RANLP_2025 (3).pdf" class="btn btn-outline" download>
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7,10 12,15 17,10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                            Download PDF
-                        </a>
-                    </div>
-                </div>
+            <div class="paper-actions">
+              <a
+                href="ILID_Paper_RANLP_2025 (3).pdf"
+                class="btn btn-outline"
+                target="_blank"
+              >
+                <svg
+                  class="btn-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                  <polyline points="15,3 21,3 21,9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Open in New Tab
+              </a>
+              <a
+                href="ILID_Paper_RANLP_2025 (3).pdf"
+                class="btn btn-outline"
+                download
+              >
+                <svg
+                  class="btn-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7,10 12,15 17,10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download PDF
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Citation Section -->
-        <section id="citation" class="section section-gray">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Citation</h2>
-                    <p class="section-description">
-                        Use the following citation formats to reference this work in your research.
-                    </p>
-                </div>
-                <div class="citation-container">
-                    <div class="citation-tabs">
-                        <button class="citation-tab active" data-format="bibtex">BibTeX</button>
-                        <button class="citation-tab" data-format="apa">APA</button>
-                        <button class="citation-tab" data-format="mla">MLA</button>
-                    </div>
-                    <div class="citation-content">
-                        <div class="citation-format active" data-format="bibtex">
-                            <pre class="citation-text"><code>@inproceedings{author2025ilid,
-  title={ILID: Investigating Language Identity Detection in Multilingual Contexts},
-  author={[Yash Ingle]},
-  booktitle={Proceedings of the International Conference Recent Advances in Natural Language Processing, RANLP 2025},
-  pages={[8]},
-  year={2025},
-  organization={INCOMA Ltd.}
+      <!-- Citation Section -->
+      <section id="citation" class="section section-gray">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Citation</h2>
+            <p class="section-description">
+              Use the following citation formats to reference this work in your
+              research.
+            </p>
+          </div>
+          <div class="citation-container">
+            <div class="citation-tabs">
+              <button class="citation-tab active" data-format="bibtex">
+                BibTeX
+              </button>
+              <button class="citation-tab" data-format="apa">APA</button>
+              <button class="citation-tab" data-format="mla">MLA</button>
+            </div>
+            <div class="citation-content">
+              <div class="citation-format active" data-format="bibtex">
+                <pre class="citation-text"><code>@misc{ingle2025ilidnativescriptlanguage,
+      title={ILID: Native Script Language Identification for Indian Languages}, 
+      author={Yash Ingle and Pruthwik Mishra},
+      year={2025},
+      eprint={2507.11832},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.11832}, 
 }</code></pre>
-                        </div>
-                        <div class="citation-format" data-format="apa">
-                            <p class="citation-text">
-                                [Yash Ingle]. (2025). ILID: Investigating Language Identity Detection in Multilingual Contexts. 
-                                In <em>Proceedings of the International Conference Recent Advances in Natural Language Processing, RANLP 2025</em> 
-                                (pp. [8]). INCOMA Ltd.
-                            </p>
-                        </div>
-                        <div class="citation-format" data-format="mla">
-                            <p class="citation-text">
-                                [Yash Ingle]. "ILID: Investigating Language Identity Detection in Multilingual Contexts." 
-                                <em>Proceedings of the International Conference Recent Advances in Natural Language Processing, RANLP 2025</em>, 
-                                INCOMA Ltd., 2025, pp. [8].
-                            </p>
-                        </div>
-                    </div>
-                    <button class="copy-citation" id="copy-citation">
-                        <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                        </svg>
-                        Copy Citation
-                    </button>
-                </div>
+              </div>
+              <div class="citation-format" data-format="apa">
+                <p class="citation-text">
+                  [Yash Ingle]. (2025). ILID: Investigating Language Identity
+                  Detection in Multilingual Contexts. In
+                  <em
+                    >Proceedings of the International Conference Recent Advances
+                    in Natural Language Processing, RANLP 2025</em
+                  >
+                  (pp. [8]). INCOMA Ltd.
+                </p>
+              </div>
+              <div class="citation-format" data-format="mla">
+                <p class="citation-text">
+                  [Yash Ingle]. "ILID: Investigating Language Identity Detection
+                  in Multilingual Contexts."
+                  <em
+                    >Proceedings of the International Conference Recent Advances
+                    in Natural Language Processing, RANLP 2025</em
+                  >, INCOMA Ltd., 2025, pp. [8].
+                </p>
+              </div>
             </div>
-        </section>
+            <button class="copy-citation" id="copy-citation">
+              <svg
+                class="copy-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+              Copy Citation
+            </button>
+          </div>
+        </div>
+      </section>
 
-        <!-- Key Contributions Section -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Key Contributions</h2>
-                </div>
-                <div class="contributions-grid">
-                    <div class="contribution-card">
-                        <div class="contribution-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M9 11H5a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2h-4"/>
-                                <polyline points="9,11 12,14 15,11"/>
-                                <line x1="12" y1="14" x2="12" y2="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="contribution-title">Novel Architecture</h3>
-                        <p class="contribution-description">
-                            Introduces a new neural architecture specifically designed for handling code-switching scenarios in multilingual text.
-                        </p>
-                    </div>
-                    <div class="contribution-card">
-                        <div class="contribution-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
-                            </svg>
-                        </div>
-                        <h3 class="contribution-title">Comprehensive Evaluation</h3>
-                        <p class="contribution-description">
-                            Extensive experiments on diverse multilingual datasets demonstrating state-of-the-art performance across language families.
-                        </p>
-                    </div>
-                    <div class="contribution-card">
-                        <div class="contribution-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                                <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
-                                <line x1="12" y1="22.08" x2="12" y2="12"/>
-                            </svg>
-                        </div>
-                        <h3 class="contribution-title">Cross-lingual Analysis</h3>
-                        <p class="contribution-description">
-                            In-depth analysis of transfer learning capabilities and cross-lingual generalization in language detection tasks.
-                        </p>
-                    </div>
-                </div>
+      <!-- Key Contributions Section -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Key Contributions</h2>
+          </div>
+          <div class="contributions-grid">
+            <div class="contribution-card">
+              <div class="contribution-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 11H5a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2h-4"
+                  />
+                  <polyline points="9,11 12,14 15,11" />
+                  <line x1="12" y1="14" x2="12" y2="3" />
+                </svg>
+              </div>
+              <h3 class="contribution-title">Novel Architecture</h3>
+              <p class="contribution-description">
+                Introduces a new neural architecture specifically designed for
+                handling code-switching scenarios in multilingual text.
+              </p>
             </div>
-        </section>
+            <div class="contribution-card">
+              <div class="contribution-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="22,12 18,12 15,21 9,3 6,12 2,12" />
+                </svg>
+              </div>
+              <h3 class="contribution-title">Comprehensive Evaluation</h3>
+              <p class="contribution-description">
+                Extensive experiments on diverse multilingual datasets
+                demonstrating state-of-the-art performance across language
+                families.
+              </p>
+            </div>
+            <div class="contribution-card">
+              <div class="contribution-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                  />
+                  <polyline points="3.27,6.96 12,12.01 20.73,6.96" />
+                  <line x1="12" y1="22.08" x2="12" y2="12" />
+                </svg>
+              </div>
+              <h3 class="contribution-title">Cross-lingual Analysis</h3>
+              <p class="contribution-description">
+                In-depth analysis of transfer learning capabilities and
+                cross-lingual generalization in language detection tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4 class="footer-title">Conference</h4>
-                    <p class="footer-text">
-                        RANLP 2025 - International Conference Recent Advances in Natural Language Processing
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title">Contact</h4>
-                    <p class="footer-text">
-                        For questions about this research, please contact the authors.
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title">Resources</h4>
-                    <div class="footer-links">
-                        <a href="ILID_Paper_RANLP_2025 (3).pdf" class="footer-link">Paper PDF</a>
-                        <a href="#citation" class="footer-link">Citation</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4 class="footer-title">Conference</h4>
+            <p class="footer-text">
+              RANLP 2025 - International Conference Recent Advances in Natural
+              Language Processing
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4 class="footer-title">Contact</h4>
+            <p class="footer-text">
+              For questions about this research, please contact the authors.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4 class="footer-title">Resources</h4>
+            <div class="footer-links">
+              <a href="ILID_Paper_RANLP_2025 (3).pdf" class="footer-link"
+                >Paper PDF</a
+              >
+              <a href="#citation" class="footer-link">Citation</a>
             </div>
-            <div class="footer-bottom">
-                <p class="footer-copyright">
-                    &copy; 2025 ILID Research. All rights reserved.
-                </p>
-            </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; 2025 ILID Research. All rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
